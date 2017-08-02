@@ -1,0 +1,12 @@
+.DS_Store
+archive/*
+biosketch/*
+GerkeCV.aux
+GerkeCV.log
+GerkeCV.out
+GerkeCV.synctex.gz
+goals/*
+preGitCommit/*
+preMoffittFormat/*
+professional/*
+
