@@ -1,0 +1,381 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Compact Academic CV
+% LaTeX Template
+% Version 1.0 (10/6/2012)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Dario Taraborelli (http://nitens.org/taraborelli/home)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important:
+% This template needs to be compiled using XeLaTeX
+%
+% Note: this template has the option to use the Hoefler Text font, see the
+% font configurations section below for instructions on using this font
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt, a4paper]{article} % Document font size and paper size
+
+\usepackage{fontspec} % Allows the use of OpenType fonts
+
+\usepackage{geometry} % Allows the configuration of document margins
+\geometry{a4paper, textwidth=5.5in, textheight=10in, marginparsep=7pt, marginparwidth=.6in} % Document margin settings %%% textheight was = 8.5
+\setlength\parindent{0in} % Remove paragraph indentation
+
+\usepackage[usenames,dvipsnames]{xcolor} % Custom colors
+
+\usepackage{sectsty} % Allows changing the font options for sections in a document
+\usepackage[normalem]{ulem} % Custom underlining
+\usepackage{xunicode} % Allows generation of unicode characters from accented glyphs
+\defaultfontfeatures{Mapping=tex-text} % Converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
+
+\usepackage{marginnote} % For margin years
+\newcommand{\years}[1]{\marginnote{\scriptsize \raise .3ex\hbox{#1}}} % New command for including margin years %%%I added the \raise and \hbox commands to make the vertical alignment better
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt} % Slightly increase the distance of the margin years from the content
+\reversemarginpar
+
+\usepackage[xetex, bookmarks, colorlinks, breaklinks, pdftitle={Travis Gerke - CV},pdfauthor={Travis Gerke}]{hyperref} % PDF setup - set your name and the title of the document to be incorporated into the final PDF file meta-information
+\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=MidnightBlue} % Link colors
+
+\usepackage{textpos} %%%for positioning text box in the upper right corner
+
+\usepackage{enumitem} %%%for adjusting indent in enumerate environment
+
+\usepackage{longtable}
+
+%----------------------------------------------------------------------------------------
+%	FONT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+% Two font choices are available in this template, the default is Linux Libertine, available for free at: http://www.linuxlibertine.org while the secondary choice is Hoefler Text which comes bundled with Mac OSX.
+% To use Hoefler Text, comment out the Linux Libertine block below and uncomment the Hoefler Text block. You will also need to replace the "\&" characters with "\amper{}" in section titles.
+
+% Hoefler Text Font (bundled with Mac OSX)
+\setromanfont [Ligatures={Common}, Numbers={OldStyle}]{Hoefler Text} % Main text font
+%\setmonofont[Scale=0.8]{Monaco} % Set mono font (e.g. phone numbers)
+\setsansfont[Scale=0.9]{Optima Regular} % Set sans font, used in the main name and titles in the document
+\newcommand{\amper}{{\fontspec[Scale=.95]{Hoefler Text}\selectfont\itshape\&}} % Custom ampersand character
+%\sectionfont{\sffamily\mdseries\large\underline} % Set font options for sections
+\sectionfont{\rmfamily\mdseries\scshape\normalsize\underline} % Set font options for sections as subsections %%%
+\subsectionfont{\rmfamily\mdseries\scshape\normalsize} % Set font options for subsections
+\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize} % Set font options for subsubsections
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{textblock*}{3.5cm}(10.1cm,-1cm)
+  {\footnotesize Curriculum Vitae\\Prepared \today}
+\end{textblock*}
+
+%----------------------------------------------------------------------------------------
+%	CONTACT AND GENERAL INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+{\Large Travis A Gerke}\\[.5cm] % was LARGE and [1cm]
+Assistant Member\\
+Department of Cancer Epidemiology\\
+Moffitt Cancer Center\\
+12902 Magnolia Drive, MRC 219\\ 
+Mailstop: MRC-CANCONT\\
+Tampa, FL 33612\\[.2cm] 
+Phone: 813-745-6448\\ 
+Fax: 813-745-6525\\
+Email: \href{mailto:travis.gerke@moffitt.org}{travis.gerke@moffitt.org}\\[.2cm]
+%\textsc{url}: \href{http://www.travisgerke.com}{http://www.travisgerke.com}\\
+
+
+%------------------------------------------------
+\vspace{-.3cm}
+
+\section*{Education}
+\years{2009} B.A.~(Mathematics), University of Florida, Gainesville, FL\\
+\years{2009} B.S.~(Statistics), University of Florida, Gainesville, FL\\
+\years{2011} A.M.~(Biostatistics), Harvard University, Cambridge, MA\\
+\years{2014} Sc.D.~(Epidemiology), Harvard School of Public Health, Boston, MA
+
+\section*{Academic appointments and employment}
+\years{2008--2009}Research Assistant, Rehabilitation Outcomes Research Center, Department of Veterans Affairs, Gainesville, FL\\
+\years{2011--2012}Statistician I, Department of Epidemiology, \,Harvard School of Public Health, Boston, MA\\
+\years{2012--2013}Graduate Research Assistant in Biostatistics, Dana-Farber Cancer Institute, Boston, MA\\
+\years{2012--2014}Graduate Research Assistant in Cancer Epidemiology, \,Harvard School of Public Health, Boston, MA\\
+\years{2014--2016}Assistant Professor, Department of Epidemiology, College of Medicine and 
+College of Public Health and Health Professions, University of Florida, Gainesville, FL\\
+\years{2014--}Visiting Scientist, Department of Epidemiology, Harvard T.H.\ Chan School of Public Health, Boston, MA\\
+\years{2016--}Assistant Professor, Department of Oncologic Sciences, Morsani College of Medicine, University of South Florida, Tampa, FL\\
+\years{2016--}Assistant Member (Secondary Appointment), Department of Genitourinary Oncology, H.\ Lee Moffitt Cancer Center \& Research Institute, Tampa, FL\\
+\years{2016--}Assistant Member, Department of Cancer Epidemiology, H.\ Lee Moffitt Cancer Center \& Research Institute, Tampa, FL
+
+\section*{Teaching}
+\years{2008--2009}Teaching Assistant, Statistics 2023: Introduction to Statistics, Department of Statistics, University of Florida\\
+\years{2011}Lab Instructor, Biostatistics 210: The Analysis of Rates and Proportions, Department of Biostatistics, Harvard School of Public Health\\
+\years{2013}Instructor, Introduction to Biostatistics and Statistical Programming, Summer Program in Epidemiology, Department of Epidemiology, Harvard School of Public Health\\
+\years{2015}Instructor, Epidemiology Methods II (PHC 6011), Department of Epidemiology, University of Florida\\
+\years{2016}Instructor, Measurement in Epidemiology and Outcomes Research (PHC 6711), Department of Epidemiology, University of Florida\\
+\years{2017}Faculty/Instructor, AACR Integrative Molecular Epidemiology Workshop: Bridging Cancer Biology and Precision Medicine, Boston, MA. Sections taught: Publicly Available Online Genomics and `Omics Resources; Bioinformatics Toolkits for Functional Analysis; Precision Medicine: Predictive Modeling from High-Throughput Results
+
+\section*{Training}
+\emph{Doctoral dissertation committee membership}\\
+~\\
+\years{2014--2017} Molly Buchanan, Department of Sociology and Criminology \& Law, University of Florida\\
+\years{2015} Zahra Shekarkhar, Department of Sociology and Criminology \& Law, University of Florida\\
+\years{2015--2016} Abenaa Acheampong, Department of Epidemiology, University of Florida\\
+\years{2015--} Yuanfang Ren, Department of Computer \& Information Science \& Engineering, University of Florida\\
+
+\emph{Master's thesis committee membership}\\
+~\\
+\years{2014--2015} Fangyu Su, Department of Epidemiology, University of Florida (Chair)\\
+\years{2014--2015} Chelsea Lutz, Department of Epidemiology, University of Florida (Chair)\\
+\years{2014--2015} Chi Wang, Department of Epidemiology, University of Florida (Chair)\\
+\years{2014--2015} Danmeng Li, Department of Epidemiology, University of Florida
+
+\section*{Honors and awards}
+\years{2016} William R.\ Jones Most Valuable Mentor Award, Florida Education Fund McKnight Doctoral Fellowship Program
+
+\section*{Research support}
+\subsection*{Current}
+\emph{Internal grants}
+
+\begin{longtable}{@{}p{0.2\linewidth} p{0.75\linewidth}}
+Name of PI: & Gerke, Rollison (co-PI) \\
+Dates: &  12/01/16 -- 06/30/17\\
+Funding Source: & Moffitt Innovation Award\\
+Title: & Machine learning approaches to identifying cancer recurrence from EMR data.\\
+Funded Effort: & 0\%\\
+Role in Study: & PI \\
+Direct Costs: & \$40,000\\
+Award Amount: & \$40,000\\
+\end{longtable}
+
+\emph{Contracts}
+
+\begin{longtable}{@{}p{0.2\linewidth} p{0.75\linewidth}}
+Name of PI: & Gerke/Bird/Manini/Prosperi \\
+Dates: & 01/01/2016 -- 12/31/2017\\
+Funding Source: & UF Cancer-Aging Collaborative Team Grant\\
+Title: & Endotype discovery in prostate cancer and multi-domain analysis of age-related comorbidities.\\
+Funded Effort: & 0\%\\
+Role in Study: & Co-PI \\
+Direct Costs: & \$40,000\\
+Award Amount: & \$40,000\\
+\end{longtable}
+
+%\subsection*{Pending}
+%\emph{External grants}
+
+%\emph{Internal grants}
+
+%\emph{Contracts}
+
+\subsection*{Completed funding}
+\emph{Internal grants}
+
+\begin{longtable}{@{}p{0.2\linewidth} p{0.75\linewidth}}
+Name of PI: & Gerke, Kahveci (co-PI) \\
+Dates: & 02/15/2015 -- 02/14/2016\\
+Funding Source: & UF Health Cancer Center Pilot Project Award\\
+Title: & Inferring the genetic architecture of gene expression in prostate cancer.\\
+Funded Effort: & 0\%\\
+Role in Study: & Co-PI \\
+Direct Costs: & \$60,000\\
+Award Amount: & \$60,000\\
+\end{longtable}
+
+%\years{2012--2014}Graduate Research Assistant, Dana Farber/Harvard Cancer Center Mazzone Awards Program Disparities Research Mechanism, ``Estimating the prostate cancer burden attributed to lifestyle And genetic factors among African-American and white men''\\
+%\years{2012--2014}Trainee, NIH Training Program Grant in Cancer Epidemiology\\
+%\years{2009--2011}Trainee, NIH Environmental Statistics Training Grant\\
+%\years{2008--2009}University Scholars Stipend, University of Florida\\
+%\years{2008--2009}National Science and Mathematics Access to Retain Talent Grant
+
+\section*{Dissertation}
+Title: Discovering and validating prognostic biomarkers in prostate cancer by focusing on population impact. \\
+Defended: November 12, 2014, Harvard School of Public Health, Boston, MA\\
+Committee: Lorelei Mucci (chair), Giovanni Parmigiani, Meir Stampfer, Christopher Sweeney
+
+\section*{Service}
+\emph{Moffitt Cancer Center}\\
+~\\
+\years{2016}Member, Data Documentation and Management Best Practices Task Force. Monthly meetings; 5 hr/month commitment.\\
+\years{2017--}Member, Unstructured Data Mining Advisory Group. Monthly meetings; 2 hr/month commitment.\\
+\years{2017--}Member, High Performance Computing Steering Committee. Bi-monthly meetings; 1 hr/month commitment.\\
+
+\emph{University of Florida}\\
+~\\
+\years{2015--2016}Co-chair, Graduate Admissions Committee, Department of Epidemiology\\
+\years{2015--2016}Member, Epidemiology Faculty Committee, Department of Epidemiology\\
+\years{2015--2016}Member, Seminar Committee, Department of Epidemiology\\
+\years{2015--2016}Member, Cancer Recruitment Committee, Department of Epidemiology\\
+\years{2015--2016}Member, Fundraising Committee, Department of Epidemiology\\
+\years{2015--2016}Member, TL1 Advisory Committee, Clinical and Translational Science Institute\\
+\years{2015--2016}Consultant, Biostatistics, Epidemiology and Research Design Program (BERD), Clinical and Translational Science Institute\\
+
+\emph{Profession}\\
+~\\
+\years{2011--2013}IRB panel member, Brigham and Women's Hospital, Boston, MA\\
+\years{2014, 2017}Ad-hoc reviewer, Cancer Medicine\\
+\years{2016, 2017}Ad-hoc reviewer, Cancer Epidemiology, Biomarkers \& Prevention\\
+\years{2016, 2017}Ad-hoc reviewer, IEEE/ACM Transactions on Computational Biology and Bioinformatics\\
+\years{2016}Member, Scientific Review Committee, The Science of Global Prostate Cancer Disparities Conference, Nov 9-12; Orlando, FL. \\
+\years{2016}Session moderator, Personalized Medicine: From Bench to Bedside to Community; The Science of Global Prostate Cancer Disparities Conference, Nov 9-12; Orlando, FL. \\
+\years{2017}Ad-hoc reviewer, BMC Urology\\
+\years{2017}Ad-hoc reviewer, Cancer Causes \& Control\\
+\years{2015--}Co-leader, Computational Patho-Epidemiology Working Group, Transdisciplinary Prostate Cancer
+Partnership (ToPCaP), Boston, MA
+
+\section*{Professional association memberships}
+\years{2011--}Active member, Transdisciplinary Prostate Cancer Partnership (ToPCaP), Boston, MA\\
+\years{2014--}Active member, Prostate Cancer Transatlantic Consortium (CaPTC), Gainesville, FL\\
+\years{2015--}Active member, American Association for Cancer Research (AACR)
+
+\section*{Peer-reviewed publications}
+\begin{enumerate}[leftmargin=*]
+\item{} {\bf Gerke TA}, Randles RH. A method for resolving ties in asymptotic relative efficiency.
+Stat Probabil Lett 2010; 80:1065--1069.
+
+\item{} Kachouie NN, {\bf Gerke TA}, Huybers P, Schwartzman A. Nonparametric regression for estimation of spatiotemporal mountain glacier retreat from satellite images. IEEE Trans Geosci Remote Sens 2014; 53(3): 1135--1149.
+
+\item{} Shui IM, Lindstr\"{o}m S, Berndt SI, Campa D, {\bf Gerke TA}, Penney KL, Albanes D, Berg C, Bueno-de-Mesquita HB, Chanock S, Crawford ED, Diver WR, Gapstur SM, Gaziano JM, Hoover R, Johansson M, Ma J, Navarro C, Overvad K, Siddiq A, Stampfer MJ, Stevens VL, Travis R, Trichopoulos D, Vineis P, Mucci LA, Yaeger M, Giovannucci EL, Kraft P. Prostate Cancer (PCa) Risk Variants and Risk of Fatal PCa in the National Cancer Institute Breast and Prostate Cancer Cohort Consortium. Eur Urol 2014; 65(6): 1069--1075.
+
+\item{} Bismar TA, Alshalalfa M, Petersen LF, Teng LH, {\bf Gerke TA}, Bakkar A, Al-Mami A, Liu S, Dolph M, Mucci LA, Alhajj R. Interrogation of ERG gene rearrangements in prostate cancer identifies a prognostic 10-gene signature with relevant implication to patients' clinical outcome. Brit J Urol Int 2014; 113(2): 309--319.
+
+\item{} Penney KL, Sinnott JA, Tyekucheva S, {\bf Gerke TA}, Shui IM, Kraft P, Sesso HD, Freedman M, Loda MF, Mucci LA, Stampfer MJ. Association of prostate cancer risk variants with gene expression in normal and tumor tissue. Cancer Epidemiol Biomarkers Prev 2015; 24(1): 255--260
+
+\item{} Shui IM, Mondul AM, Lindstr\"{o}m S, Tsilidis KK, Travis RC, {\bf Gerke TA}, Albanes D, Black A, Berg CD, Bueno-de-Mesquita HB, Gapstur SM, Haiman C, Henderson B, Hoover R, Hunter DJ, Johansson M, Key TJ, Khaw K, Marchand L, Ma J, McCullough ML, Siddiq A, Stampfer M, Stram DO, Stevens VL, Trichopoulos D, Tumino R, Willett W, Ziegler RG, K\"{u}hn T, Barricarte A, Tj\o nneland A, Mucci LA, Giovannucci E, Kraft P. Circulating vitamin D, vitamin D-related genetic variation, and risk of fatal prostate cancer in the National Cancer Institute Breast and Prostate Cancer Cohort Consortium. Cancer 2015; 121(12): 1949--1956.
+
+\item{} Sinnott JA, Rider JR, Carlsson J, {\bf Gerke TA}, Tyekucheva S, Penney K, Sesso HD, Loda M, Parmigiani G, Fall K, Stampfer MJ, Mucci LA, Pawitan Y, Andersson S, Andr\'{e}n O. Molecular Differences in Transition Zone and Peripheral Zone Prostate Tumors. Carcinogenesis 2015; 36(6): 632--638.
+
+\item{} Rider JR, Fiorentino M, Kelly R, {\bf Gerke TA}, Jordahl K, Sinnott JA, Giovannucci EL, Loda MF, Mucci LA, Finn S. Tumor expression of {Adiponectin Receptor 2} and lethal prostate cancer. Carcinogenesis 2015; 36(6): 639--647.
+
+\item{} Terry RS, {\bf Gerke TA}, Mason JB, Sorenson MD, Joseph JP, Dahm P, Su L. Postoperative rhabdomyolysis following robotic renal and adrenal surgery: a cautionary tale of compounding risk factors. J Robotic Surg 2015; 9(3): 195--200.
+
+\item{} Martin NE, {\bf Gerke TA}, Sinnott JA, Stack EC, Andr\'{e}n O, Andersson S, Johansson J, Fiorentino M, Finn S, Fedele G, Stampfer MJ, Kantoff PW, Mucci LA, Loda MF. Measuring PI3K activation: Clinicopathologic, immunohistochemical, and RNA expression analysis in prostate cancer. Mol Cancer Res 2015; 13(10): 1431--1440.
+
+\item{} {\bf Gerke TA$^*$}, Martin NE$^*$, Ding Z, Nuttall E, Stack EC, Giovannucci EL, Lis RT, Stampfer MJ, Kantoff PW, Parmigiani G, Loda MF, Mucci LA. Evaluating a 4-marker signature of aggressive prostate cancer using time-dependent AUC. Prostate 2015; 75(16): 1926--1933.
+
+\item{} Ahearn T, Pettersson A, Ebot EM, {\bf Gerke TA}, Graff R, Morais CL, Hicks J, Wilson KM, Rider JR, Sesso HD, Fiorentino M, Flavin R, Finn S, Giovannucci EL, Loda M, Stampfer MJ, De Marzo AM, Mucci LA, Lotan TL. A prospective investigation of PTEN loss and ERG expression in lethal prostate cancer. JNCI 2015; 108(2): pii djv346.
+
+\item{} Conboy L, {\bf Gerke TA}, Hsu KY, {St John} M, Goldstein M, Schnyer R. The effectiveness of individualized acupuncture protocols in the treatment of Gulf War Illness: A pragmatic randomized clinical trial. PLoS One 2016; 11(3): e0149161.
+
+\item{} Lu D, Sinnott JA, Valdimarsd\'{o}ttir U, Fang F, {\bf Gerke TA}, Tyekucheva S, Fiorentino M, Lambe M, Sesso HD, Sweeney CJ, Wilson KM, Giovannucci EL, Loda M, Mucci LA, Fall K. Stress-related signaling pathways in lethal and non-lethal prostate cancer. Clin Cancer Res 2016; 22(3): 765--772.
+
+\item{} Stopsack KH, {\bf Gerke TA}, Sinnott JA, Penney KL, Tyekucheva S, Sesso HD, Andersson S, Andr\'{e}n O, Cerhan JR, Giovannucci EL, Mucci LA, Rider JR. Cholesterol metabolism and lethal prostate cancer. Cancer Res 2016; 76(16): 4785--4790.
+
+\item{} Preston MA, Batista JL, Carlsson SV, {\bf Gerke TA}, Sjoberg DD, Dahl DM, Sesso H, Feldman AS, Gann PH, Vickers AJ, Mucci LA. Baseline prostate-specific antigen (PSA) levels in midlife predict lethal prostate cancer. J Clin Oncol 2016; 34(23): 2705--2711.
+
+\item{} Moore II RA, {\bf Gerke TA}, Bourgoine D, Eamranond PP. Transition coach program implementation associated with thirty-day readmission rates in a community hospital setting. Arch Community Med Public Health 2016; 2(1): 022-026. DOI: 10.17352/2455-5479.000012.
+
+\item{} Waniga HM, {\bf Gerke TA}, Shoemaker A, Bourgoine D, Eamranond P. The impact of revised discharge instructions on patient satisfaction. J Patient Experience 2016; 3(3): 64--68. 
+
+\item{} Sinnott JA, Peisch S, Tyekucheva S, {\bf Gerke TA}, Lis RT, Rider JR, Fiorentino M, Stampfer MJ, Mucci LA, Loda M, Penney KL. Prognostic utility of a new mRNA expression signature of Gleason score. Clin Cancer Res 2016; In press: DOI: 10.1158/ 1078-0432.CCR-16-1245. 
+
+\item{} Kelly RS, Sinnott JA, Rider JR, Ebot E, {\bf Gerke TA}, Bowden M, Pettersson A, Loda M, Sesso H, Kantoff PW, Martin NE, Giovannucci EL, Tyekucheva S, Vander Heiden M, Mucci LA. The role of tumor metabolism as a driver of prostate cancer progression and lethal disease: Results from a nested case-control study. Cancer Metab 2016; 4(22): DOI 10.1186/s40170-016-0161-9.
+
+\item{} Fankhauser CD, Mucci LA, {\bf Gerke TA}. Re: New prostate cancer grading system predicts long-term survival following surgery for Gleason score 8-10 prostate cancer. Eur Urol 2016; In press: DOI 10.1016/j.eururo.2017.01.016. 
+
+\item{} Pettersson A$^*$, {\bf Gerke TA$^*$}, Fall K, Pawitan Y, Holmberg L, Giovannucci EL, Kantoff PW, Adami H, Rider JR, Mucci LA. The ABC model of prostate cancer: a conceptual framework for the design and interpretation of prognostic studies. Cancer 2017; In press: DOI 10.1002/cncr.30582.
+
+\item{}  Zareba P, Flavin R, Isikbay M, Rider JR, {\bf Gerke TA}, Finn S, Pettersson A, Giunchi F, Unger RH, Andersson SO, Giovannucci EL, Andr\'{e}n O, Fall K, Fiorentino M, Mucci LA. Perineural invasion and risk of lethal prostate cancer. Cancer Epidemiol Biomarkers Prev 2017; In press: DOI 10.1158/1055-9965.EPI-16-0237.
+
+\item{} Chen Z, {\bf Gerke TA}, Bird V, Prosperi M. Trends in gene expression profiling for prostate cancer risk assessment: a systematic review. Biomed Hub 2017; 2:472146.
+
+\item{} Ebot E, {\bf Gerke TA},  Labb\'{e} D, Sinnott J, Zadra G, Rider J, Tyekucheva S, Wilson K, Kelly R, Shui I, Loda M, Kantoff P, Finn S, Vander Heiden M, Giovannucci E, Brown M, Mucci LA. Gene expression profiling of prostate tissue identifies chromatin regulation as a potential link between obesity and lethal prostate cancer. Cancer 2017; In press.
+
+\item{} Mucci LA, Pernar CH, Peisch S, {\bf Gerke TA}, Wilson KM. Prostate cancer incidence as an iceberg. Eur J Epidemiol 2017; In press.
+
+\item{} Stopsack KH, {\bf Gerke TA}, Andr\'{e}n O, Andersson S, Giovannucci EL, Mucci LA, Rider JR. Cholesterol uptake and regulation in high-grade and lethal prostate cancers. Carcinogenesis 2017; In press.
+
+\item{} Wang K, Chen X, Bird VY, {\bf Gerke TA}, Manini TM, Prosperi M. Association between age-related reductions in testosterone and risk of prostate cancer -- an analysis of patients' data with prostatic diseases. Int J Cancer 2017; In press.
+\end{enumerate}
+
+\section*{Conference presentations}
+Martin NE, {\bf Gerke TA}, Loda MF, Stampfer MJ, Finn S, Rider JR, Mucci LA. Tumor adiponectin signaling underlies the association between obesity and lethal outcome in prostate cancer. In: American Association for Cancer Research Annual Meeting: 2012 Mar 31-Apr 4; Chicago, IL.\\
+
+Zareba P, Pettersson A, {\bf Gerke TA}, Fiorentino M, Flavin R, Rider JR, Giovannucci EL, Finn S, Loda MF, Mucci LA. Immunohistochemical expression of BRCA1 and prostate cancer progression in  a large radical prostatectomy cohort. In: 32nd Congress of the Soci\'{e}t\'{e} Internationale d'Urologie: 2012 Sep 30-Oct 4; Fukuoka, Japan.\\
+
+Shui IM, Lindstr\"{o}m S, {\bf Gerke TA}, Kraft P. Prostate cancer risk variants and disease progression in the NCI Breast and Prostate Cancer Cohort Consortium. In: Proceedings of the AACR Special Conference on Post-GWAS Horizons in Molecular Epidemiology: Digging Deeper into the Environment: 2012 Nov 11-14; Hollywood, FL.\\
+
+{\bf Gerke TA}, Fiorentino M, Choudhury D, Pettersson A, Zareba P, Kantoff P, Loda MF, Finn S, Mucci LA. Molecular markers associated with altered BRCA1 expression in prostate cancer. In: Sixth Annual Prostate Cancer Program Retreat: 2013 Mar 18-20; Fort Lauderdale, FL.\\
+
+Ahearn TU, Pettersson A, Stack EC, Ma J, {\bf Gerke TA}, Meisner A, Pollak MN, Finn S, Stampfer MJ, Loda M, Giovannucci EL, Mucci LA.  The IGF/insulin signaling axis TMPRSS2:ERG and prostate cancer survival.  In: American Association for Cancer Research Annual Meeting: 2013 Apr 6-10; Washington, DC.\\
+
+Schwartzman A, Kachouie NN, Huybers P, {\bf Gerke TA}. Spatiotemporal estimation of mountain glacier retreat. In: American Statistical Association Conference on Statistical Practice: 2014 Feb 20-22; Tampa, FL.\\
+
+Preston M, Batista J, Carlsson S, {\bf Gerke T}, Dahl D, Feldman A, Gann P, Vickers A, Stampfer M, Mucci L. Prostate-specific antigen (PSA) levels in men <60 years of age predicts lethal prostate cancer. In: American Urological Association Annual Meeting: 2014 May 16-21; Orlando, FL.\\
+
+{\bf Gerke T}, Tyekucheva S, Penney K, Sweeney C, Lis R, Nuttall I, Loda M, Stampfer M, Parmigiani G, Mucci L. Discovering a gene expression signature of prostate cancer prognostication by focusing on indolent tumors. In: American Urological Association Annual Meeting: 2014 May 16-21; Orlando, FL.\\
+
+Peisch SF, {\bf Gerke T}, Wilson KM, Giovannucci EL, Signorello LB, Mucci LA. Racial disparities in prostate cancer: Estimating the role of diet, lifestyle, and genetic factors among African-American and Caucasian-American men. In: Proceedings of the Thirteenth Annual AACR International Conference on Frontiers in Cancer Prevention Research: 2014 Sep 27-Oct 1; New Orleans, LA.\\
+
+{\bf Gerke T}. Bioinformatics 101: Big data's role in addressing prostate cancer disparities. In: The Third Biennial Science of Global Prostate Cancer Disparities in Black Men: 2014 Nov 5-8; Montego Bay, Jamaica.\\
+
+{\bf Gerke T}, Tyekucheva S, Penney K, Sweeney C, Lis R, Sesso H, Nuttall E, Loda M, Stampfer M, Parmigiani G, Mucci L. Discovery and validation of a 30-gene expression signature to identify prostate cancer patients who are candidates for active surveillance. In: Genitourinary Cancers Symposium: 2015 Feb 26-28; Orlando, FL.\\
+
+Kelly RS, Sinnott JA, Rider JR, Ebot E, {\bf Gerke TA}, Penney KL, Bowden M, Pettersson A, Loda M, Stampfer M, Kantoff PW, Martin NE, Giovannucci EL, Tyekucheva S, Vander Heiden M, Mucci LA. Tumor metabolism as a driver of lethal prostate cancer. In: AACR Special Conference, Metabolism and Cancer: 2015 June 7-10; Bellevue, WA.\\
+
+Ebot EM, {\bf Gerke T}, Tyekucheva S, Labb\'{e} DP, Zadra G, Kelly RS, Bowden M, Rider JR, Wilson KM, Martin NE, Brown M, Vander Heiden MG, Giovannucci EL, Loda M, Mucci LA. Identifying obesity-linked gene expression changes in prostate cancer. In: AACR Special Conference, Metabolism and Cancer: 2015 June 7-10; Bellevue, WA.\\
+
+Stopsack KH, {\bf Gerke T}, Cerhan JR, Mucci LA, Rider JR. Increased cholesterol synthesis via squalene monooxygenase to predict lethal prostate cancer. In: Genitourinary Cancers Symposium: 2016 Jan 7-9; San Francisco, CA.\\
+
+Wilson KM, {\bf Gerke T}, Ebot E, Sinnott JA, Rider JR, Mucci LA. Differential gene expression in prostate tissue according to vasectomy. In: Genitourinary Cancers Symposium: 2016 Jan 7-9; San Francisco, CA.\\
+
+Rider JR, Wilson KM, {\bf Gerke T}, Ebot E, Sinnott JA, Mucci LA. Differential gene expression in prostate tissue according to sexual behaviors. In: American Urological Association Annual Meeting: 2016 May 6-10; San Diego, CA.\\
+
+Preston M, Wilson K, {\bf Gerke T}, Carlsson S, Sjoberg D, Kibel A, Trinh Q, Signorello L, Steinwandel M, Vickers A, Lilja H, Mucci L. Baseline prostate-specific antigen (PSA) levels in midlife predict total and aggressive prostate cancer in African-American men. In: American Urological Association Annual Meeting: 2016 May 6-10; San Diego, CA.\\
+
+Stopsack KH, {\bf Gerke T}, Mucci LA, Rider JR. Prostate cancer prognostication based on an actionable metabolic pathway. In: AACR Improving Cancer Risk Prediction for Prevention and Early Detection: 2016 Nov 16-19; Orlando, FL.\\%this was a platform talk
+
+Fankhauser C, Wilson K, Rider J, Penney K, Peisch S, Fiorentino M, Kantoff P, Moch H, Mucci L, {\bf Gerke T}. Do more granular Gleason categorizations lead to better prognostic accuracy over time? In: Annual European Association of Urology Congress: 2017 Mar 24-28; London, England.\\
+
+{\bf Gerke T},  B\"{o}rnigen D, Beltran H, Tyekucheva S, Huttenhower C, Lee G, Lotan T, Trock B, Mucci L, Sweeney C. Loss of the tumor suppressor Zinc Finger Protein-36 and risk of lethal prostate cancer. In: American Association for Cancer Research Annual Meeting: 2017 Apr 1-5; Washington, DC.\\
+
+Berglund AE, {\bf Gerke T}, Awasthi S, Grass GD, Park HY, Cleveland JL, Park JY, Yamoah K, Rounbehler RJ. Tristetraprolin is a prognostic biomarker for biochemical recurrence in low Gleason score patients. In: American Association for Cancer Research Annual Meeting: 2017 Apr 1-5; Washington, DC.\\
+
+Ebot E, Isikbay M, {\bf Gerke T}, Ahearn TU, Kelly RS, Tyekucheva S, Pettersson A, Penney KL, Mucci L. Gene expression profiling of prostate tissue identifies biological pathways associated with TMPRSS2:ERG gene fusion. In: American Association for Cancer Research Annual Meeting: 2017 Apr 1-5; Washington, DC.
+
+\section*{Invited seminars}
+\years{2009}A method for resolving ties in asymptotic relative efficiency. Undergraduate Research Symposium, University of Florida.\\
+\years{2010}Spatial design and geometry with applications in environmental statistics. Department of Biostatistics Summer Project Presentation Series, Harvard School of Public Health.\
+\years{2011}Estimation of mountain glacier retreat via analysis of satellite imagery. Environmental Statistics Seminar Series, Harvard School of Public Health.\\
+\
+\years{2012}Gene expression data management and analysis pipeline: an applied example. Bioinformatics Working Group, Channing Division of Network Medicine.\\
+\years{2012, 2013}IRB panels and ethics in human subjects research. Undergraduate Seminar in Ethics, Values, and Diversity, Northeastern University.\\
+\years{2013}Epidemiologic methods for case-control studies of gene expression. Cancer Epidemiology Fellows Seminar, Harvard School of Public Health.\\
+\years{2015}Understanding molecular cancer research. Alachua County Prostate Cancer Alliance.\\
+\years{2015}Building clinically useful prognostic models from high-dimensional feature spaces by focusing on partial AUC. University of Florida Department of Statistics Seminar Series.\\
+\years{2015}Computational approaches to the challenge of molecular discovery in prostate cancer. University of Florida Health Cancer Center Seminar Series.\\
+\years{2016}Designing molecular epidemiology studies. University of Florida Biostatistics, Epidemiology and Research Design (BERD) Studio.\\
+\years{2016}Leveraging big data resources to understand public health disparities. Translational Research and Therapeutics: Bench, Bedside, Community, \& Policy; University of Florida course GMS 7593.\\ %gave this lecture both in March and October 2016
+\years{2017}Confounding. Moffitt Cancer Center Population Science Seminar Series for Research Staff.\\
+\years{2017}Fundamentals of integrative molecular epidemiology. Quantitative Genomics and Genetics; University of South Florida course PHC 6934.
+
+\section*{Software development}
+Barr CD, {\bf Gerke TA}, Diez DM. \verb|voronoi|: Methods and applications related to Voronoi tessellations. R package 2011; version 1.0.
+
+\section*{Other education}
+Frontiers in Causal Inference Workshop: 2012 March 23-24; Harvard University, Cambridge, MA.\\
+
+AACR Workshop on Integrative Molecular Epidemiology: 2016 August 5-9; Boston, MA.\\
+
+%------------------------------------------------
+
+%\vfill{} % Whitespace before final footer
+%----------------------------------------------------------------------------------------
+%	FINAL FOOTER
+%----------------------------------------------------------------------------------------
+%\begin{center}
+%{\scriptsize Last updated: \today\- \- \href{http://www.LaTeXTemplates.com}{http://www.LaTeXTemplates.com}} % Any final footer text such as a URL to the latest version of your CV, last updated date, compiled in XeTeX, etc
+%\end{center}
+%----------------------------------------------------------------------------------------
+
+\end{document}
