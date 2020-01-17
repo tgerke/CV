@@ -1,7 +1,7 @@
 ---
 name: Travis  
 surname: Gerke, ScD
-position: "epidemiologist • <b>data scientist</b> • statistician"
+position: "epidemiologist • data scientist • statistician"
 address: "H. Lee Moffitt Cancer Center & Research Institute, 12902 Magnolia Drive, Tampa, FL 33612"
 phone: +1 813 745 6448
 www: travisgerke.com
@@ -29,11 +29,20 @@ Text here.
 library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "Informal studies", "1889-91", "Flying University", "Warsaw, Poland",
-  "Master of Physics", "1893", "Sorbonne Université", "Paris, France",
-  "Master of Mathematics", "1894", "Sorbonne Université", "Paris, France"
+  "Doctor of Science (ScD), Epidemiology", "2014", "Harvard School of Public Health", "Boston, MA",
+  "Master of Arts (AM), Biostatistics", "2011", "Harvard University", "Cambridge, MA",
+  "Bachelor of Science (BS), Statistics", "2009", "University of Florida", "Gainesville, FL"
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where)
+```
+
+\vspace{-.7cm}
+```{r}
+tribble(
+  ~ Degree, ~ Year,
+  "Bachelor of Arts (BA), Mathematics", "2009"
+) %>% 
+  detailed_entries(Degree, Year)
 ```
 
 # Experience
@@ -42,7 +51,7 @@ tribble(
  * Thing 2
  * Thing 3
 
-# Nobel Prizes
+# Impact
 
 ```{r}
 tribble(
@@ -57,6 +66,7 @@ tribble(
   )
 ```
 
+<!--
 # Publications
 
 ```{r}
@@ -71,4 +81,4 @@ scholar::get_publications("mP-fw2gAAAAJ&") %>%
 
 bibliography_entries("gerke.bib")
 ```
-
+-->
