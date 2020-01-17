@@ -45,14 +45,51 @@ tribble(
   detailed_entries(Degree, Year)
 ```
 
-# Experience
+# Experience and impact
+
+```{r}
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
+  "Assistant Member, Department of Epidemiology", "2016--present", "H. Lee Moffitt Cancer Center & Research Institute", "Tampa, FL", "Research faculty"
+) %>% 
+  detailed_entries(Position, Year, Institution, Where, Why)
+```
+
+\vspace{-.6cm}
+```{r}
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
+  "Scientific Director, Collaborative Data Services", " ", " ", " ", "Lead scientific direction"
+) %>% 
+  detailed_entries(Position, Year, Institution, Where, Why)
+```
+
+\vspace{-.5cm}
+```{r}
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
+  "Assistant Professor, Department of Epidemiology", "2014--2016", "University of Florida", "Gainesville, FL", "Research faculty",
+    "Statistician I / Research Data Analyst, Department of Epidemiology", "2011--2014", "Harvard School of Public Health", "Boston, MA", "Grant prep and manuscript writing",
+  "Research Data Analyst, Department of Biostatistics", "2012--2013", "Dana-Farber Cancer Institute", "Boston, MA", "Python-based collaboration with Google Earth team",
+  "Research Data Analyst, Rehabilitation Outcomes Research Center", "2008--2009", "Department of Veterans Affairs", "Gainesville, FL", "SAS-based econometric health-care delivery analyses",  
+) %>% 
+  detailed_entries(Position, Year, Institution, Where, Why)
+```
+
+
+# Leadership, advisory roles, and outreach
 
  * Thing 1
  * Thing 2
  * Thing 3
+ 
+# Technical experience
 
-# Impact
-
+ * Thing 1
+ * Thing 2
+ * Thing 3
+ 
+<!--
 ```{r}
 tribble(
   ~Year, ~Type, ~Desc,
@@ -65,6 +102,7 @@ tribble(
     Desc
   )
 ```
+-->
 
 <!--
 # Publications
