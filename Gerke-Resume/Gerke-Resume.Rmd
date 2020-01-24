@@ -75,19 +75,111 @@ tribble(
   detailed_entries(Position, Year, Institution, Where, Why)
 ```
 
+# Advisory roles, mentorship, and outreach
+\emph{Summary:} As a result of my deep appreciation for modernized data governance, scientific computing, and reproducible data science frameworks, I provide strategic input for a wide array of relevant organizational initiatives. Successful implementation of such initiatives requires undertanding the needs and partnership/mentoring of data science end-users. As an active and visible member of the broader data science community, I enjoy sharing successes/challenges and learning from the experience of others.
 
-# Leadership, advisory roles, and outreach
-\emph{Summary:} teaching activities
+```{r}
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
+  "Selected Advisory Roles", " ", " ", " ", "Moffitt Data Documentation and Management Best Practices Task Force (Member): The goal of this task force was to establish and communicate institutional best practices for preserving and documenting research-generated data"
+) %>% 
+  detailed_entries(Position, Year, Institution, Where, Why)
+```
 
- * Thing 1
- * Thing 2
- * Thing 3
- 
+\vspace{-1.1cm}
+```{r}
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
+  " ", " ", " ", " ", "Moffitt Cancer Epidemiology Research Data Analyst Task Force (Chair): The goal of this task force was to modernize the research data analyst job ladder to align with data science job seekers, both with respect to search criteria and salary expectations"
+) %>% 
+  detailed_entries(Position, Year, Institution, Where, Why)
+```
+
+\vspace{-1.1cm}
+```{r}
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
+  " ", " ", " ", " ", "Moffitt High Performance Computing Steering Committee (Member): This committee ensures that services and technology stack offered by the Moffitt compute cluster meet the evolving needs of research end-users"
+) %>% 
+  detailed_entries(Position, Year, Institution, Where, Why)
+```
+
+\vspace{-1.1cm}
+```{r}
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
+  " ", " ", " ", " ", "Moffitt Health and Research Informatics (HRI) Governance Committee (Member): This committee provides guidance and decision-making for HRI-related activities, and aims to build trust in the institution’s high quality data assets by establishing shared understanding through data availability, quality, and usability"
+) %>% 
+  detailed_entries(Position, Year, Institution, Where, Why)
+```
+
+\vspace{-1.1cm}
+```{r}
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
+  " ", " ", " ", " ", "Moffitt HRI Molecular Data Training Task Force (Member): This task force facilitates researcher querying of Oracle-based molecular data by designing and implementing a training program for appropriate data science team members"
+) %>% 
+  detailed_entries(Position, Year, Institution, Where, Why)
+```
+
+\vspace{-1.1cm}
+```{r}
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
+  " ", " ", " ", " ", "Flatiron Health Academic Research Oversight Committee (Member): This committee provides guidance on how to best use Flatiron national data to advance academic research and identify opportunities for collaboration across sites"
+) %>% 
+  detailed_entries(Position, Year, Institution, Where, Why)
+```
+
+\vspace{-.2cm}
+```{r}
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
+  "Selected Mentorship and Teaching Roles", " ", " ", " ", "AACR Integrative Molecular Epidemiology Workshop (annual faculty member, 2017--present): At this workshop delivered to postdocs/early career faculty, I teach sections on effective use of big data resources and predictive modeling/machine learning"
+) %>% 
+  detailed_entries(Position, Year, Institution, Where, Why)
+```
+
+\vspace{-1.1cm}
+```{r}
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
+  " ", " ", " ", " ", "University of Florida (2015--2016): In addition to formally mentoring 8 graduate students on thesis/dissertation committees, I designed and taught graduate courses focused on (i) measurement and data capture in health outcomes research and (ii) introductory causal inference"
+) %>% 
+  detailed_entries(Position, Year, Institution, Where, Why)
+```
+
+\vspace{-1.1cm}
+```{r}
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
+  " ", " ", " ", " ", "Harvard School of Public Health Summer Program in Epidemiology, Introduction to Biostatistics and Statistical Programming (2013): I designed and taught an 8 week course which focused on using the R language to implement common biostatistical methods"
+) %>% 
+  detailed_entries(Position, Year, Institution, Where, Why)
+```
+
+\vspace{-.2cm}
+```{r}
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
+  "Selected Outreach Activities", " ", " ", " ", "Founding Organizer, Tampa Bay R Users Group: Founded in 2017, this data science group has grown to over 500 members, and meets monthly to discuss the introductory topics through state of the art in R programming"
+) %>% 
+  detailed_entries(Position, Year, Institution, Where, Why)
+```
+
+\vspace{-1.1cm}
+```{r}
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
+  " ", " ", " ", " ", "Executive Board Member, Florida Interdisciplinary Data Sciences Consortium (2019--present): Provides a forum to advance interdisciplinary data science expertise and training to students, the USF community, and the state; features a biweekly seminar series and short courses/workshops"
+) %>% 
+  detailed_entries(Position, Year, Institution, Where, Why)
+```
+
 # Technical experience
+\emph{Summary:} My philosphy on appropriate technology tooling is to use that which most efficiently delivers interpretable value to key stakeholders. This stance guides my regular usage and enthusiam for R/RStudio solutions which feature a full statistical toolkit with deliverables commonly designed for the modern web browser. I also have experience in cloud and/or high-performance computing cluster environments, where key stakeholders may be other data scientists who place high value on efficiency at scale; in such settings, I have deployed Python, SAS, or SQL (often through R database interfaces) as appropriate. In all technical work, I emphasize that reproduciblity and readability for future users of code is of paramount importance, with git playing a vital role in this regard.
 
- * Thing 1
- * Thing 2
- * Thing 3
+\begin{center}•\hspace{.5em} R/R Markdown/Shiny \hspace{.5em}•\hspace{.5em} Python \hspace{.5em}•\hspace{.5em} SAS \hspace{.5em}•\hspace{.5em} git/GitHub \hspace{.5em}•\hspace{.5em} \LaTeX \hspace{.5em}•\end{center}
  
 <!--
 ```{r}
