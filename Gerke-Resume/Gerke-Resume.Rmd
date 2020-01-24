@@ -44,12 +44,12 @@ tribble(
 ```
 
 # Experience and impact
-\emph{Summary:} My career as a quantitative scientist spans not only the traditional principal investigator role, but also includes administrative leadership in the data science domain. 
+\emph{Summary:} My career as a quantitative scientist spans not only the traditional principal investigator role, but also includes administrative leadership in the data science domain. I have led or collaborated on 14 successful grant applications, many of which helped drive my 70+ peer-reviewed manuscripts published or under review. My team science efforts have resulted in over 60 scientific conference presentations, both nationally and internationally. I have also led or co-developed 5 scientific software releases.
 
 ```{r}
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
-  "Assistant Member, Department of Epidemiology", "2016--present", "H. Lee Moffitt Cancer Center & Research Institute", "Tampa, FL", "Research faculty"
+  "Assistant Member, Department of Cancer Epidemiology", "2016--present", "H. Lee Moffitt Cancer Center & Research Institute", "Tampa, FL", "Research faculty"
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why)
 ```
