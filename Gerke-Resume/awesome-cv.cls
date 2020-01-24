@@ -200,8 +200,8 @@
 \newcommand*{\headerquotestyle}[1]{{\fontsize{9pt}{1em}\bodyfont\itshape\color{darktext} #1}}
 \newcommand*{\footerstyle}[1]{{\fontsize{8pt}{1em}\footerfont\scshape\color{lighttext} #1}}
 % if desired, this line will set the section color text to awesome, instead of coloring 1st 3 chars
-%\newcommand*{\sectionstyle}[1]{{\fontsize{16pt}{1em}\bodyfont\bfseries\color{awesome} #1}}
-\newcommand*{\sectionstyle}[1]{{\fontsize{16pt}{1em}\bodyfont\bfseries\color{text}\@sectioncolor #1}}
+\newcommand*{\sectionstyle}[1]{{\fontsize{16pt}{1em}\bodyfont\bfseries\color{awesome} #1}}
+%\newcommand*{\sectionstyle}[1]{{\fontsize{16pt}{1em}\bodyfont\bfseries\color{text}\@sectioncolor #1}}
 \newcommand*{\subsectionstyle}[1]{{\fontsize{12pt}{1em}\bodyfont\scshape\textcolor{text}{#1}}}
 \newcommand*{\paragraphstyle}{\fontsize{9pt}{1em}\bodyfontlight\upshape\color{text}}
 
@@ -492,7 +492,7 @@
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://scholar.google.com/citations?user=\@googlescholar}{\aiGoogleScholarSquare\acvHeaderIconSep\@googlescholar}%
+          \href{https://scholar.google.com/citations?user=\@googlescholar}{\aiGoogleScholarSquare\acvHeaderIconSep travisgerke}%
         }%
       \ifthenelse{\isundefined{\@researchgate}}%
         {}%
@@ -569,7 +569,7 @@
 \newcommand*{\makecvfooter}[3]{%
   \fancyfoot{}
   \fancyfoot[L]{\footerstyle{#1}}
-  \fancyfoot[C]{\footerstyle{#2}}
+  \fancyfoot[C]{\footerstyle{Travis Gerke, ScD • Resume}}
   \fancyfoot[R]{\footerstyle{#3}}
 }
 
