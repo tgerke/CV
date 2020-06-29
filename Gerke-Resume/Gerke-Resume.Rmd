@@ -44,21 +44,30 @@ tribble(
 ```
 
 # Experience and impact
-\emph{Summary:} My career as a quantitative scientist spans not only the traditional principal investigator role, but also includes administrative leadership in the data science domain. I have led or collaborated on 14 successful grant applications, many of which helped drive my 70+ peer-reviewed manuscripts published or under review. My team science efforts have resulted in over 60 scientific conference presentations, both nationally and internationally. I have also led or co-developed 5 scientific software releases.
+\emph{Summary:} My career as a quantitative scientist spans not only the traditional principal investigator role, but also includes administrative leadership in the data science domain. I have led or collaborated on 14 successful grant applications, many of which helped drive my 70+ peer-reviewed manuscript publications. My team science efforts have resulted in over 60 scientific conference presentations, both nationally and internationally. I have also led or co-developed 5 scientific software releases.
 
 ```{r}
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
-  "Assistant Member, Department of Cancer Epidemiology", "2016--present", "H. Lee Moffitt Cancer Center & Research Institute", "Tampa, FL", "Direct academic research lab with emphasis in: (i) developing modernized data science workflows for molecular epidemiology research; (ii) causal inference for decision science and real world evidence studies; (iii) reproducible data science frameworks"
+    "Health Informatics Director", "2020--present", "H. Lee Moffitt Cancer Center & Research Institute", "Tampa, FL", "Serve as the primary liaison between Moffitt data consumers and the Health Informatics team, designing cloud-based data marts and associated informatics tools to meet the clinical, research and operational analytics needs of Moffitt’s faculty and administration") %>% 
+  detailed_entries(Position, Year, Institution, Where, Why)
+```
+
+\vspace{-1.1cm}
+```{r}
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
+    "", "", "", "", "Facilitate data workflows across multiple teams around the Center, and provide the foundation for predictive analytics and data sharing partnerships",
+    "Scientific Director, Collaborative Data Services", "2016--present", "", "", "Provide scientific and technical leadership for Moffitt's research data provisioning hub. Key initiatives include: (i) transition a traditionally Excel-based data group to modern R frameworks with git versioning; (ii) enhance interfacing with biostatistics/bioinformatics end-users to deliver analytically-ready data"
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why)
 ```
 
-\vspace{-.6cm}
+\vspace{-.5cm}
 ```{r}
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
-  "Scientific Director, Collaborative Data Services", " ", " ", " ", "Provide scientific and technical leadership for Moffitt's research data provisioning hub. Key initiatives include: (i) transition a traditionally Excel-based data group to modern R frameworks with git versioning; (ii) enhance interfacing with biostatistics/bioinformatics end-users to deliver analytically-ready data"
+  "Assistant Member, Department of Cancer Epidemiology", "2016--2020", "", "", "Direct academic research lab with emphasis in: (i) developing modernized data science workflows for molecular epidemiology research; (ii) causal inference for decision science and real world evidence studies; (iii) reproducible data science frameworks"
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why)
 ```
@@ -205,7 +214,7 @@ scholar::get_publications("mP-fw2gAAAAJ&") %>%
   distinct(title, .keep_all = TRUE) %>%
   transmute(bibtype = "Article", author = as.character(author),
             title = as.character(title),
-            journaltitle = as.character(journal), year, key = row_number()) %>% 
+            journaltitle = as.character(journal), year, key = dplyr::row_number()) %>% 
   RefManageR::as.BibEntry() %>% 
   RefManageR::WriteBib("gerke.bib")
 
