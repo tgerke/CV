@@ -44,12 +44,12 @@ tribble(
 ```
 
 # Experience and impact
-\emph{Summary:} My career as a quantitative scientist spans not only the traditional principal investigator role, but also includes administrative leadership in the data science domain. I have led or collaborated on 14 successful grant applications, many of which helped drive my 70+ peer-reviewed manuscript publications. My team science efforts have resulted in over 60 scientific conference presentations, both nationally and internationally. I have also led or co-developed 5 scientific software releases.
+\emph{Summary:} My career as a quantitative scientist spans not only the traditional principal investigator role, but also includes administrative leadership in the data science domain. I have led or collaborated on 14 successful grant applications, many of which helped drive my 70+ peer-reviewed publications. My team science efforts have resulted in over 60 scientific conference presentations, both nationally and internationally. I have also led or co-developed 5 scientific software releases.
 
 ```{r}
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
-    "Health Informatics Director", "2020--present", "H. Lee Moffitt Cancer Center & Research Institute", "Tampa, FL", "Serve as the primary liaison between Moffitt data consumers and the Health Informatics team, designing cloud-based data marts and associated informatics tools to meet the clinical, research and operational analytics needs of Moffitt’s faculty and administration") %>% 
+    "Health Informatics Director", "2020--present", "H. Lee Moffitt Cancer Center & Research Institute", "Tampa, FL", "Serve as the primary liaison between Moffitt data consumers and the Health Informatics team, designing cloud-based data marts and associated informatics tools to meet the clinical, research, and operational analytics needs of Moffitt’s faculty and administration") %>% 
   detailed_entries(Position, Year, Institution, Where, Why)
 ```
 
@@ -83,6 +83,8 @@ tribble(
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why)
 ```
+
+\newpage
 
 # Advisory roles, mentorship, and outreach
 \emph{Summary:} As a result of my deep appreciation for modernized data governance, scientific computing, and reproducible data science frameworks, I provide strategic input for a wide array of relevant organizational initiatives. Successful implementation of such initiatives requires undertanding the needs and partnership/mentoring of data science end-users. As an active and visible member of the broader data science community, I enjoy sharing successes/challenges and learning from the experience of others.
