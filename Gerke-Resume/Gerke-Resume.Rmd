@@ -190,7 +190,7 @@ tribble(
 # Technical experience
 \emph{Summary:} My philosphy on appropriate technology tooling is to use that which most efficiently delivers interpretable value to key stakeholders. This stance guides my regular usage and enthusiam for R/RStudio solutions which feature a full statistical toolkit with deliverables commonly designed for the modern web browser. I also have experience in cloud and/or high-performance computing cluster environments, where key stakeholders may be other data scientists who place high value on efficiency at scale; in such settings, I have deployed Python, SAS, or SQL (often through R database interfaces) as appropriate. In all technical work, I emphasize that reproduciblity and readability for future users of code is of paramount importance, with git playing a vital role in this regard.
 
-\begin{center}•\hspace{.5em} R/R Markdown/Shiny \hspace{.5em}•\hspace{.5em} Python \hspace{.5em}•\hspace{.5em} SAS \hspace{.5em}•\hspace{.5em} git/GitHub \hspace{.5em}•\hspace{.5em} \LaTeX \hspace{.5em}•\end{center}
+\begin{center}•\hspace{.5em} R/R Markdown/Shiny \hspace{.5em}•\hspace{.5em} Python \hspace{.5em}•\hspace{.5em} Snowflake \hspace{.5em}•\hspace{.5em} SQL \hspace{.5em}•\hspace{.5em} SAS \hspace{.5em}•\hspace{.5em} git/GitHub \hspace{.5em}•\hspace{.5em} \LaTeX \hspace{.5em}•\end{center}
  
 <!--
 ```{r}
