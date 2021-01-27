@@ -58,7 +58,7 @@ tribble(
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
     "", "", "", "", "Facilitate data workflows across multiple teams around the Center, and provide the foundation for predictive analytics and data sharing partnerships",
-    "Scientific Director, Collaborative Data Services", "2016--present", "", "", "Provide scientific and technical leadership for Moffitt's research data provisioning hub. Key initiatives include: (i) transition a traditionally Excel-based data group to modern R frameworks with git versioning; (ii) enhance interfacing with biostatistics/bioinformatics end-users to deliver analytically-ready data"
+    "Scientific Director, Collaborative Data Services", "2018--present", "", "", "Provide scientific and technical leadership for Moffitt's research data provisioning hub. Key initiatives include: (i) transition a traditionally Excel-based data group to modern R frameworks with git versioning; (ii) enhance interfacing with biostatistics/bioinformatics end-users to deliver analytically-ready data"
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why)
 ```
@@ -87,7 +87,7 @@ tribble(
 \newpage
 
 # Advisory roles, mentorship, and outreach
-\emph{Summary:} As a result of my deep appreciation for modernized data governance, scientific computing, and reproducible data science frameworks, I provide strategic input for a wide array of relevant organizational initiatives. Successful implementation of such initiatives requires undertanding the needs and partnership/mentoring of data science end-users. As an active and visible member of the broader data science community, I enjoy sharing successes/challenges and learning from the experience of others.
+\emph{Summary:} As a result of my deep appreciation for modernized data governance, scientific computing, and reproducible data science frameworks, I provide strategic input for a wide array of relevant organizational initiatives. Successful implementation of such initiatives requires understanding the needs and partnership/mentoring of data science end-users. As an active and visible member of the broader data science community, I enjoy sharing successes/challenges and learning from the experience of others.
 
 ```{r}
 tribble(
