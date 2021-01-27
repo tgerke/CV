@@ -3,7 +3,7 @@ name: Travis
 surname: Gerke, ScD
 position: "epidemiologist • data scientist • statistician"
 address: "H. Lee Moffitt Cancer Center & Research Institute, 12902 Magnolia Drive, Tampa, FL 33612"
-phone: +1 813 745 6448
+phone: +1 706 346 4899
 www: travisgerke.com
 email: "travis.gerke@moffitt.org"
 #twitter: travisgerke
@@ -44,12 +44,12 @@ tribble(
 ```
 
 # Experience and impact
-\emph{Summary:} My career as a quantitative scientist spans not only the traditional principal investigator role, but also includes administrative leadership in the data science domain. I have led or collaborated on 14 successful grant applications, many of which helped drive my 70+ peer-reviewed publications. My team science efforts have resulted in over 60 scientific conference presentations, both nationally and internationally. I have also led or co-developed 5 scientific software releases.
+\emph{Summary:} My career as a quantitative scientist spans not only the traditional principal investigator role, but also includes enterprise leadership in the data science domain. I have led or collaborated on 14 successful grant applications, many of which helped drive my 75+ peer-reviewed publications and 5 scientific software releases. At the enterprise level, I guide implementation of data science platforms that enable rapid and reproducible analytic insights.
 
 ```{r}
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
-    "Health Informatics Director", "2020--present", "H. Lee Moffitt Cancer Center & Research Institute", "Tampa, FL", "Serve as the primary liaison between Moffitt data consumers and the Health Informatics team, designing cloud-based data marts and associated informatics tools to meet the clinical, research, and operational analytics needs of Moffitt’s faculty and administration") %>% 
+    "Health Informatics Director", "2020--present", "H. Lee Moffitt Cancer Center & Research Institute", "Tampa, FL", "Create value for Moffitt data consumers as the agile product owner of cloud-based data marts (AWS/Snowflake) and associated informatics tools (RStudio/Python/Shiny) designed meet the clinical, research, and operational analytics needs of Moffitt’s faculty and administration") %>% 
   detailed_entries(Position, Year, Institution, Where, Why)
 ```
 
