@@ -5,7 +5,7 @@ position: "epidemiologist • data scientist • statistician"
 address: "H. Lee Moffitt Cancer Center & Research Institute, 12902 Magnolia Drive, Tampa, FL 33612"
 phone: +1 706 346 4899
 www: travisgerke.com
-email: "travis.gerke@moffitt.org"
+email: "travisgerke@gmail.com"
 #twitter: travisgerke
 googlescholar: mP-fw2gAAAAJ
 github: tgerke
@@ -92,16 +92,7 @@ tribble(
 ```{r}
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
-  "Selected Advisory Roles", " ", " ", " ", "Moffitt Data Documentation and Management Best Practices Task Force (Member): The goal of this task force was to establish and communicate institutional best practices for preserving and documenting research-generated data"
-) %>% 
-  detailed_entries(Position, Year, Institution, Where, Why)
-```
-
-\vspace{-1.1cm}
-```{r}
-tribble(
-  ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
-  " ", " ", " ", " ", "Moffitt Cancer Epidemiology Research Data Analyst Task Force (Chair): The goal of this task force was to modernize the research data analyst job ladder to align with data science job seekers, both with respect to search criteria and salary expectations"
+  "Selected Advisory Roles", " ", " ", " ", "Moffitt Research Data Analyst Task Force (Chair): The goal of this task force was to modernize the institution's research data analyst job ladder to align with data science job seekers, both with respect to search criteria and salary expectations"
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why)
 ```
@@ -119,16 +110,7 @@ tribble(
 ```{r}
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
-  " ", " ", " ", " ", "Moffitt Health and Research Informatics (HRI) Governance Committee (Member): This committee provides guidance and decision-making for HRI-related activities, and aims to build trust in the institution’s high quality data assets by establishing shared understanding through data availability, quality, and usability"
-) %>% 
-  detailed_entries(Position, Year, Institution, Where, Why)
-```
-
-\vspace{-1.1cm}
-```{r}
-tribble(
-  ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
-  " ", " ", " ", " ", "Moffitt HRI Molecular Data Training Task Force (Member): This task force facilitates researcher querying of Oracle-based molecular data by designing and implementing a training program for appropriate data science team members"
+  " ", " ", " ", " ", "Moffitt Health and Research Informatics (HRI) Governance Committee (Member): This committee provides guidance and decision-making for data warehouse-related activities, and aims to build trust in the institution’s high quality data assets by establishing shared understanding through data availability, quality, and usability"
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why)
 ```
@@ -142,11 +124,20 @@ tribble(
   detailed_entries(Position, Year, Institution, Where, Why)
 ```
 
+\vspace{-1.1cm}
+```{r}
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
+  " ", " ", " ", " ", "Flatiron R Package Universe (Core Team Member): This team of developers contributes to R packages which facilitate best practices in feature engineering and analysis of Flatiron real-world data"
+) %>% 
+  detailed_entries(Position, Year, Institution, Where, Why)
+```
+
 \vspace{-.2cm}
 ```{r}
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
-  "Selected Mentorship and Teaching Roles", " ", " ", " ", "AACR Integrative Molecular Epidemiology Workshop (annual faculty member, 2017--present): At this workshop delivered to postdocs/early career faculty, I teach sections on effective use of big data resources and predictive modeling/machine learning"
+  "Selected Mentorship and Teaching Roles", " ", " ", " ", "AACR Integrative Molecular Epidemiology Workshop (annual faculty member, 2017--2020): At this workshop delivered to postdocs/early career faculty, I teach sections on effective use of big data resources and predictive modeling/machine learning"
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why)
 ```
@@ -173,7 +164,7 @@ tribble(
 ```{r}
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
-  "Selected Outreach Activities", " ", " ", " ", "Founding Organizer, Tampa Bay R Users Group: Founded in 2017, this data science group has grown to over 500 members, and meets monthly to discuss the introductory topics through state of the art in R programming"
+  "Selected Outreach Activities", " ", " ", " ", "Founding Organizer, Tampa Bay R Users Group: Founded in 2017, this data science group has grown to over 500 members, and meets monthly to discuss introductory topics through state of the art in R programming"
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why)
 ```
