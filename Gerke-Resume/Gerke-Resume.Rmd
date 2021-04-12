@@ -44,7 +44,7 @@ tribble(
 ```
 
 # Experience and impact
-\emph{Summary:} My career as a quantitative scientist spans not only the traditional principal investigator role, but also includes enterprise leadership in the data science domain. I have led or collaborated on 14 successful grant applications, many of which helped drive my 75+ peer-reviewed publications and 5 scientific software releases. At the enterprise level, I guide implementation of data science platforms that enable rapid and reproducible analytic insights.
+\emph{Summary:} My career as a quantitative scientist spans not only the traditional principal investigator role, but also includes enterprise leadership in the data science domain. I have led or collaborated on 14 successful grant applications, many of which helped drive my 80+ peer-reviewed publications and 6 scientific software releases. At the enterprise level, I guide implementation of data science platforms that enable rapid and reproducible analytic insights.
 
 ```{r}
 tribble(
@@ -57,7 +57,7 @@ tribble(
 ```{r}
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
-    "", "", "", "", "Facilitate data workflows across multiple teams around the Center, and provide the foundation for predictive analytics and data sharing partnerships",
+    "", "", "", "", "Facilitate data workflows across multiple teams around the Center, and provide the foundation for predictive analytics, production pipelines for machine learning/AI applications, and data sharing partnerships",
     "Scientific Director, Collaborative Data Services", "2018--present", "", "", "Provide scientific and technical leadership for Moffitt's research data provisioning hub. Key initiatives include: (i) transition a traditionally Excel-based data group to modern R frameworks with git versioning; (ii) enhance interfacing with biostatistics/bioinformatics end-users to deliver analytically-ready data"
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why)
@@ -137,7 +137,7 @@ tribble(
 ```{r}
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where, ~Why,
-  "Selected Mentorship and Teaching Roles", " ", " ", " ", "AACR Integrative Molecular Epidemiology Workshop (annual faculty member, 2017--2020): At this workshop delivered to postdocs/early career faculty, I teach sections on effective use of big data resources and predictive modeling/machine learning"
+  "Selected Mentorship and Teaching Roles", " ", " ", " ", "AACR Integrative Molecular Epidemiology Workshop (annual faculty member, 2017--2021): At this workshop delivered to postdocs/early career faculty, I teach sections on effective data management and sharing, big data resources, and predictive modeling/machine learning"
 ) %>% 
   detailed_entries(Position, Year, Institution, Where, Why)
 ```
