@@ -1,0 +1,93 @@
+---
+title: "Gerke Resume"
+format:
+  pdf:
+    template: AltaCV/main.tex
+pdf-engine: lualatex
+name: Travis Gerke, ScD
+tagline: Data Science Leader
+photo-path: AltaCV/travis-gerke_square
+email: travisgerke@gmail.com
+phone: +01-706-346-4899
+location: San Diego, CA
+linkedin: travisgerke
+github: tgerke
+homepage: travisgerke.com
+#medium: mediumID
+#npm: npmID
+#dev: devtoID
+#orcid: 0000-0000-0000-0000
+scholar: mP-fw2gAAAAJ
+section-one: Education
+section-one-text: |
+  \cvedu{Doctor of Science (ScD)}{Epidemiology}{Harvard School of Public Health}{2014}
+  \cvedu{Master of Arts (AM)}{Biostatistics}{Harvard University}{2011}
+  \cvedu{Bachelor of Science (BS),
+  
+  Bachelor of Arts (BA)}{Statistics, Mathematics}{University of Florida}{2009}
+section-two: Skills
+section-two-text: |
+  \cvtag{R}
+  \cvtag{GitHub}
+  \cvtag{Biostatistics}
+  \cvtag{Machine Learning}
+  \cvtag{\LaTeX}
+  \cvtag{SQL}
+  \cvtag{Causal Inference}
+  \par\medskip
+  I apply my 15+ years of R development experience in the domains of data engineering, machine learning, and biostatistics. I enjoy championing well-documented and version controlled pipelines at all stages of analysis, from data generation through reporting and visualization.
+section-three: Achievements
+section-three-text: |
+  \bfseries\textcolor{emphasis}{80+ peer-reviewed publications}\\
+  \normalfont{>2000 citations, h-index 26}\\
+  \medskip
+  \bfseries\textcolor{emphasis}{Activity on 15 funded grants}\\
+  \normalfont{Funders include NIH, NCI, American Cancer Society, and Department of Defense}\\
+  \medskip
+  \bfseries\textcolor{emphasis}{85+ presentations and invited seminars}\\
+  \normalfont{Spans local and international conferences, workshops, and other outreach}
+section-four: Summary & Objective
+section-four-text: |
+  Very brief punchy summary of your main experience and qualifications and a short description of the position you are looking for.
+section-five: Professional Experience
+section-five-text: |
+  \cvevent{Director of Data Science }{| The Prostate Cancer Clinical Trials Consortium (PCCTC)}{Jun 2021 -- Present}{Remote}
+  \begin{itemize}
+      \item First item
+      \item Second item
+      \item Third item
+  \end{itemize}
+  \divider
+  
+  \cvevent{Director of Health Informatics }{| Moffitt Cancer Center}{May 2020 -- Jun 2021}{Tampa, FL}
+  \begin{itemize}
+      \item First item
+      \item Second item
+      \item Third item
+  \end{itemize}
+  \divider
+  
+  \cvevent{Scientific Director of Collaborative Data Services and Assistant Member}{| Moffitt Cancer Center}{May 2016 -- May 2020}{Tampa, FL}
+  \begin{itemize}
+      \item First item
+      \item Second item
+      \item Third item
+  \end{itemize}
+  \divider
+  
+  \cvevent{Visiting Scientist}{| Harvard School of Public Health}{Nov 2014 -- Jul 2020}{Boston, MA}
+  \begin{itemize}
+      \item First item
+      \item Second item
+  \end{itemize}
+  \divider
+  
+  \cvevent{Assistant Professor of Epidemiology}{| University of Florida}{Sep 2014 -- May 2016}{Gainesville, FL}
+  \begin{itemize}
+      \item First item
+      \item Second item
+  \end{itemize}
+  \divider
+  
+---
+
