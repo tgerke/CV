@@ -48,44 +48,40 @@ section-three-text: |
   \normalfont{Spans local and international conferences, workshops, and other outreach}
 section-four: Summary & Objective
 section-four-text: |
-  Very brief punchy summary of your main experience and qualifications and a short description of the position you are looking for.
+  As a practictioner of servant leadership, I balance roles as an independent contributor against that of a full stack data science mentor. I use my experience as a former academic to guide best research and data practice in  oncology clinical trials and the real-world evidence domain.
 section-five: Professional Experience
 section-five-text: |
   \cvevent{Director of Data Science }{| The Prostate Cancer Clinical Trials Consortium (PCCTC)}{Jun 2021 -- Present}{Remote}
   \begin{itemize}
-      \item First item
-      \item Second item
-      \item Third item
+      \item Established the data science program and recruited top talent to develop modern clinical trial reporting and analytics workflows
+      \item Construct SOPs pertaining to software development life cycles and validation, statistical analysis plans, regulatory-grade data governance, and compliant data engineering (e.g. versioned SDTM/ADaM data stores)
+      \item Led development of custom solutions for patient profile and safety reporting, portfolio tracking, and data quality monitoring
   \end{itemize}
   \divider
   
   \cvevent{Director of Health Informatics }{| Moffitt Cancer Center}{May 2020 -- Jun 2021}{Tampa, FL}
   \begin{itemize}
-      \item First item
-      \item Second item
-      \item Third item
+      \item Transformed the data access layer as the agile product owner of cloud-based data marts (AWS/Snowflake) and associated informatics tools (RStudio/Python/Shiny)
+      \item Lead teams to provide the foundation for predictive analytics, pipelines for ML/AI applications, and data sharing partnerships
   \end{itemize}
   \divider
   
   \cvevent{Scientific Director of Collaborative Data Services and Assistant Member}{| Moffitt Cancer Center}{May 2016 -- May 2020}{Tampa, FL}
   \begin{itemize}
-      \item First item
-      \item Second item
-      \item Third item
+      \item Provide scientific and technical leadership for Moffitt's data provisioning hub
+      \item Direct academic research lab with emphasis in reproducible data science for real-world evidence studies
   \end{itemize}
   \divider
   
   \cvevent{Visiting Scientist}{| Harvard School of Public Health}{Nov 2014 -- Jul 2020}{Boston, MA}
   \begin{itemize}
-      \item First item
-      \item Second item
+      \item Serve as lead statistician in an epidemiology lab, ensuring appropriate application of statistical methods and providing mentorship of students/postdocs
   \end{itemize}
   \divider
   
   \cvevent{Assistant Professor of Epidemiology}{| University of Florida}{Sep 2014 -- May 2016}{Gainesville, FL}
   \begin{itemize}
-      \item First item
-      \item Second item
+      \item Direct research lab with emphasis in machine learning and causal inference in oncology studies of gene expression
   \end{itemize}
   \divider
   
