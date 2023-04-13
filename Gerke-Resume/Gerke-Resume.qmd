@@ -61,8 +61,8 @@ section-five-text: |
   
   \cvevent{Director of Health Informatics }{| Moffitt Cancer Center}{May 2020 -- Jun 2021}{Tampa, FL}
   \begin{itemize}
-      \item Transformed the data access layer as the agile product owner of cloud-based data marts (AWS/Snowflake) and associated informatics tools (RStudio/Python/Shiny)
-      \item Lead teams to provide the foundation for predictive analytics, pipelines for ML/AI applications, and data sharing partnerships
+      \item Transformed the data access layer as the agile product owner of cloud-based data marts (AWS/Snowflake) and associated informatics tools (R/Python/Shiny)
+      \item Lead teams to provide the foundation for predictive analytics, production-grade ML/AI applications, and data sharing partnerships
   \end{itemize}
   \divider
   
