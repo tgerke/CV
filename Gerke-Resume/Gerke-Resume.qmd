@@ -38,13 +38,13 @@ section-two-text: |
   I apply my 15+ years of R development experience in the domains of data engineering, machine learning, and biostatistics. I enjoy championing well-documented and version controlled pipelines at all stages of analysis, from data generation through reporting and visualization.
 section-three: Achievements
 section-three-text: |
-  \bfseries\textcolor{emphasis}{80+ peer-reviewed publications}\\
-  \normalfont{>2000 citations, h-index 26}\\
+  \bfseries\textcolor{emphasis}{92 peer-reviewed publications}\\
+  \normalfont{>2500 citations, h-index 27}\\
   \medskip
   \bfseries\textcolor{emphasis}{Activity on 15 funded grants}\\
   \normalfont{Funders include NIH, NCI, American Cancer Society, and Department of Defense}\\
   \medskip
-  \bfseries\textcolor{emphasis}{85+ presentations and invited seminars}\\
+  \bfseries\textcolor{emphasis}{90+ presentations and invited seminars}\\
   \normalfont{Spans local and international conferences, workshops, and other outreach}
 section-four: Summary & Objective
 section-four-text: |
